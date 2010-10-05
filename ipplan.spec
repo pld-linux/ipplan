@@ -12,11 +12,9 @@ Requires:	webapps
 Requires(triggerpostun):	sed >= 4.0
 Requires:	webserver(access)
 Requires:	webserver(alias)
-#Requires:	webserver(auth)
-#Requires:	webserver(cgi)
-#Requires:	webserver(indexfile)
-#Requires:	webserver(php)
-#Requires:	webserver(setenv)
+Requires:	webserver(cgi)
+Requires:	webserver(indexfile)
+Requires:	webserver(php)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
