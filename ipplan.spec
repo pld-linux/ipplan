@@ -1,5 +1,4 @@
-Summary:	Package that uses webapps configuration
-Summary(pl.UTF-8):	Pakiet używający konfiguracji aplikacji WWW
+Summary:	TCP IP address management (IPAM) software
 Name:		ipplan
 Version:	4.92
 Release:	0.1
@@ -27,8 +26,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_appdir		%{_datadir}/%{_webapp}
 
 %description
-
-%description -l pl.UTF-8
+IPplan is a free (GPL), web based, multilingual, TCP IP address
+management (IPAM) software written in PHP, IPplan goes beyond TCPIP
+address management including DNS administration, configuration file
+management, circuit management (customizable via templates) and
+storing of hardware information (customizable via templates). IPplan
+can handle a single network or cater for multiple networks and
+customers with overlapping address space. Makes managing ip addresses
+and managing ip address space simple and easy!
 
 %prep
 %setup -q -n %{name}
