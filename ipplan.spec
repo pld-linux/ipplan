@@ -1,3 +1,6 @@
+#
+# TODO:	locales, check configs, ...
+#
 Summary:	TCP IP address management (IPAM) software
 Name:		ipplan
 Version:	4.92
