@@ -3,12 +3,12 @@
 #
 Summary:	TCP IP address management (IPAM) software
 Name:		ipplan
-Version:	4.92
+Version:	4.92a
 Release:	0.1
 License:	GPL v2+
 Group:		Applications/WWW
 Source0:	http://downloads.sourceforge.net/iptrack/ipplan/%{name}-%{version}.tar.gz
-# Source0-md5:	2540b381744d1891b53b660fffc5ec56
+# Source0-md5:	51543971eef3d78f08c7a9abb04759a6
 URL:		http://iptrack.sourceforge.net/
 BuildRequires:	rpmbuild(macros) >= 1.268
 Requires:	webapps
